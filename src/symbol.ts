@@ -21,7 +21,7 @@ export const symbol = Extension.create<SymbolOptions>({
     const attrs: GlobalAttributes = []
 
     if (this.options.enableName) {
-      attrs.push(...(this.extensions.map(ext => ({
+      attrs.push(...(this.extensions.filter(ext => ext.name !== 'text').map(ext => ({
         types: [ext.name],
         attributes: {
           name: {
@@ -40,7 +40,7 @@ export const symbol = Extension.create<SymbolOptions>({
     }
 
     if (this.options.enableId) {
-      attrs.push(...(this.extensions.filter(ext => ext.type === 'node').map(ext => ({
+      attrs.push(...(this.extensions.filter(ext => ext.type === 'node' && ext.name !== 'text').map(ext => ({
         types: [ext.name],
         attributes: {
           id: {
