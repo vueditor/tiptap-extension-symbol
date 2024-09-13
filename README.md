@@ -16,15 +16,30 @@ or
 npm install @vueditor/tiptap-extension-symbol
 ```
 
-## Notice to modify
+## Basic usage
 
-- README.md
-- LICENSE
-- package.json
-  - name
-  - description
-  - author
-  - license
-  - keywords
-  - bugs
-  - homepage
+```ts
+import { Editor } from '@tiptap/core'
+import { symbol } from '@vueditor/tiptap-extension-symbol'
+
+const editor = new Editor({
+  extension: [symbol]
+})
+```
+
+### Options
+
+```ts
+interface SymbolOptions {
+  // whether to add name attribute for nodes and marks, default: true
+  enableName: boolean
+
+  // whether to add unique ID attribute for nodes, default: true
+  enableId: boolean
+}
+```
+
+## Demo
+
+> [!TIP]
+> For more detailed usage，see the [examples](./examples/) directory or more comprehensive usage: [rich text editor](https://github.com/vueditor/rich-text-editor.git).
