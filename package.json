@@ -1,19 +1,22 @@
 {
-  "name": "typescript-starter",
+  "name": "@vueditor/tiptap-extension-handle",
   "type": "module",
   "version": "0.0.0",
   "private": false,
-  "description": "A typescript project startup template",
-  "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
+  "description": "A tiptap extension to add symbols for nodes and marks",
+  "author": "liting-yes <luz.liting@gmail.com> (https://litingyes.top/)",
   "license": "MIT",
-  "homepage": "https://github.com/liting-yes/typescript-starter#readme",
+  "homepage": "https://github.com/litingyes/tiptap-extension-symbol#readme",
   "bugs": {
-    "url": "https://github.com/liting-yes/typescript-starter/issues"
+    "url": "https://github.com/litingyes/tiptap-extension-symbol/issues"
   },
   "keywords": [
-    "typescript",
-    "template",
-    "starter"
+    "tiptap",
+    "extension",
+    "tiptap-extension",
+    "symbol",
+    "id",
+    "unique"
   ],
   "exports": {
     ".": {
@@ -36,6 +39,13 @@
     "commit": "git-cz",
     "release": "bumpp && npm publish",
     "prepare": "husky"
+  },
+  "peerDependencies": {
+    "@tiptap/core": "^2.6.6",
+    "@tiptap/pm": "^2.6.6"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.7"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.5.0",

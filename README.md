@@ -1,13 +1,20 @@
-# typescript-starter
+# Tiptap extension symbol
 
-A typescript project startup template
+![GitHub License](https://img.shields.io/github/license/vueditor/tiptap-extension-symbol?style=plastic) ![NPM Version](https://img.shields.io/npm/v/%40vueditor%2Ftiptap-extension-symbol?style=plastic) ![NPM Downloads](https://img.shields.io/npm/dm/%40vueditor%2Ftiptap-extension-symbol?style=plastic)  ![GitHub Repo stars](https://img.shields.io/github/stars/vueditor/tiptap-extension-symbol?style=plastic)
 
-## Features
+A tiptap extension to  add symbols for nodes and marks
 
-- code lint & format with [eslint](https://eslint.org/) and [@antfu/eslint-config](https://www.npmjs.com/package/@antfu/eslint-config)
-- commit lint with [husky](https://typicode.github.io/husky/) and [lint-staged](https://www.npmjs.com/package/lint-staged)
-- build with [unbuild](https://unjs.io/packages/unbuild)
-- release with [bumpp](https://github.com/antfu-collective/bumpp)
+## Installation
+
+```bash
+pnpm add @vueditor/tiptap-extension-symbol
+```
+
+or
+
+```bash
+npm install @vueditor/tiptap-extension-symbol
+```
 
 ## Notice to modify
 
