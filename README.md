@@ -18,6 +18,9 @@ npm install @vueditor/tiptap-extension-symbol
 
 ## Basic usage
 
+> [!TIP]
+> For more detailed usage，see the [examples](./examples/) directory or more comprehensive usage: [rich text editor](https://github.com/vueditor/rich-text-editor.git).
+
 ```ts
 import { Editor } from '@tiptap/core'
 import { symbol } from '@vueditor/tiptap-extension-symbol'
@@ -38,8 +41,3 @@ interface SymbolOptions {
   enableId: boolean
 }
 ```
-
-## Demo
-
-> [!TIP]
-> For more detailed usage，see the [examples](./examples/) directory or more comprehensive usage: [rich text editor](https://github.com/vueditor/rich-text-editor.git).
