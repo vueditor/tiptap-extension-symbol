@@ -35,6 +35,7 @@ const editor = new Editor({
 ```ts
 interface SymbolOptions {
   // whether to add name attribute for nodes and marks, default: true
+  // usually used to customize the css style of nodes and marks
   enableName: boolean
 
   // whether to add unique ID attribute for nodes, default: true
