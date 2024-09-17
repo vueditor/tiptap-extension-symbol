@@ -2,7 +2,7 @@
 
 ![GitHub License](https://img.shields.io/github/license/vueditor/tiptap-extension-symbol?style=plastic) ![NPM Version](https://img.shields.io/npm/v/%40vueditor%2Ftiptap-extension-symbol?style=plastic) ![NPM Downloads](https://img.shields.io/npm/dm/%40vueditor%2Ftiptap-extension-symbol?style=plastic)  ![GitHub Repo stars](https://img.shields.io/github/stars/vueditor/tiptap-extension-symbol?style=plastic)
 
-A tiptap extension to  add symbols for nodes and marks
+A tiptap extension to  add symbols for nodes and marks, read the [docs](https://vueditor.litingyes.top/) to learn more.
 
 ## Installation
 
