@@ -32,7 +32,7 @@ importers:
         version: 18.3.0
       '@vitejs/plugin-react':
         specifier: ^4.3.1
-        version: 4.3.1(supports-color@7.2.0)(vite@6.4.4(sass@1.78.0))
+        version: 4.3.1(supports-color@7.2.0)(vite@6.4.5(sass@1.78.0))
       eslint:
         specifier: ^9.9.0
         version: 9.10.0(supports-color@7.2.0)
@@ -55,8 +55,8 @@ importers:
         specifier: ^8.0.1
         version: 8.5.0(eslint@9.10.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.6.2)
       vite:
-        specifier: ^6.4.4
-        version: 6.4.4(sass@1.78.0)
+        specifier: ^6.4.5
+        version: 6.4.5(sass@1.78.0)
 
 packages:
 
@@ -1394,8 +1394,8 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
-  vite@6.4.4:
-    resolution: {integrity: sha512-xGjU/SyjeNyb0E4KxXBvYz/1C+3JXuujvf2hXNOtnlcE+58o5ajd9N2/n2VhkiJvpCP2qQasnUpx5PXNeI+p1Q==}
+  vite@6.4.5:
+    resolution: {integrity: sha512-4enwjFfi4IwtEh0w+jPzpLVOFQiPHmmzPxcHXQOyEur47o6u0jE573DmGpjA+7irXoMLYRZD5ZaFUEneS3abPg==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -2076,14 +2076,14 @@ snapshots:
       '@typescript-eslint/types': 8.5.0
       eslint-visitor-keys: 3.4.3
 
-  '@vitejs/plugin-react@4.3.1(supports-color@7.2.0)(vite@6.4.4(sass@1.78.0))':
+  '@vitejs/plugin-react@4.3.1(supports-color@7.2.0)(vite@6.4.5(sass@1.78.0))':
     dependencies:
       '@babel/core': 7.25.2(supports-color@7.2.0)
       '@babel/plugin-transform-react-jsx-self': 7.24.7(@babel/core@7.25.2(supports-color@7.2.0))
       '@babel/plugin-transform-react-jsx-source': 7.24.7(@babel/core@7.25.2(supports-color@7.2.0))
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 6.4.4(sass@1.78.0)
+      vite: 6.4.5(sass@1.78.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -2784,7 +2784,7 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  vite@6.4.4(sass@1.78.0):
+  vite@6.4.5(sass@1.78.0):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
