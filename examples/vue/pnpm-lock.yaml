@@ -20,7 +20,7 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.1.2
-        version: 5.1.3(vite@6.4.3(sass@1.78.0))(vue@3.5.4(typescript@5.6.2))
+        version: 5.1.3(vite@6.4.5(sass@1.78.0))(vue@3.5.4(typescript@5.6.2))
       sass:
         specifier: ^1.78.0
         version: 1.78.0
@@ -28,8 +28,8 @@ importers:
         specifier: ^5.5.3
         version: 5.6.2
       vite:
-        specifier: ^6.4.3
-        version: 6.4.3(sass@1.78.0)
+        specifier: ^6.4.5
+        version: 6.4.5(sass@1.78.0)
       vue-tsc:
         specifier: ^2.0.29
         version: 2.1.6(typescript@5.6.2)
@@ -808,8 +808,8 @@ packages:
   uc.micro@2.1.0:
     resolution: {integrity: sha512-ARDJmphmdvUk6Glw7y9DQ2bFkKBHwQHLi2lsaH6PPmz/Ka9sFOBsBluozhDltWmnv9u/cF6Rt87znRTPV+yp/A==}
 
-  vite@6.4.3:
-    resolution: {integrity: sha512-NTKlcQjlAK7MlQoyb6LgaqHc8sso/pVyUJYWMws3jg21uTJw/LddqIFPcPqP6PzpgbIcZyKI85sFE4HBrQDA8A==}
+  vite@6.4.5:
+    resolution: {integrity: sha512-4enwjFfi4IwtEh0w+jPzpLVOFQiPHmmzPxcHXQOyEur47o6u0jE573DmGpjA+7irXoMLYRZD5ZaFUEneS3abPg==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -1190,9 +1190,9 @@ snapshots:
 
   '@types/estree@1.0.9': {}
 
-  '@vitejs/plugin-vue@5.1.3(vite@6.4.3(sass@1.78.0))(vue@3.5.4(typescript@5.6.2))':
+  '@vitejs/plugin-vue@5.1.3(vite@6.4.5(sass@1.78.0))(vue@3.5.4(typescript@5.6.2))':
     dependencies:
-      vite: 6.4.3(sass@1.78.0)
+      vite: 6.4.5(sass@1.78.0)
       vue: 3.5.4(typescript@5.6.2)
 
   '@volar/language-core@2.4.4':
@@ -1607,7 +1607,7 @@ snapshots:
 
   uc.micro@2.1.0: {}
 
-  vite@6.4.3(sass@1.78.0):
+  vite@6.4.5(sass@1.78.0):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
